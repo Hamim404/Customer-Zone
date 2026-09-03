@@ -1,0 +1,92 @@
+[
+  {
+    "id": 101,
+    "title": "Login Page Error",
+    "description": "Users getting 500 error when submitting credentials.",
+    "customer": "Acme Corp",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-09-01"
+  },
+  {
+    "id": 102,
+    "title": "Payment Gateway Failure",
+    "description": "Stripe webhook failing on checkout redirect.",
+    "customer": "Global Tech",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-09-01"
+  },
+  {
+    "id": 103,
+    "title": "UI Distortion on Mobile",
+    "description": "Navigation menu overlapping header on iPhone 13.",
+    "customer": "InnoSoft",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-09-02"
+  },
+  {
+    "id": 104,
+    "title": "Database Query Lag",
+    "description": "Slow response time on fetching user activity logs.",
+    "customer": "DataFlow",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-09-02"
+  },
+  {
+    "id": 105,
+    "title": "Email Notification Bug",
+    "description": "Password reset emails not delivering consistently.",
+    "customer": "CloudScale",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-09-02"
+  },
+  {
+    "id": 106,
+    "title": "Export to CSV Failing",
+    "description": "Reports page crashes on downloading >500 records.",
+    "customer": "FinTech Ltd",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-09-03"
+  },
+  {
+    "id": 107,
+    "title": "Profile Picture Upload",
+    "description": "PNG images larger than 2MB throw unhandled error.",
+    "customer": "SocialNet",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-09-03"
+  },
+  {
+    "id": 108,
+    "title": "Dark Mode Contrast",
+    "description": "Text color hard to read in settings menu.",
+    "customer": "DesignCo",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-09-03"
+  },
+  {
+    "id": 109,
+    "title": "API Rate Limit Issue",
+    "description": "429 errors triggering earlier than configured limit.",
+    "customer": "AppStudio",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-09-03"
+  },
+  {
+    "id": 110,
+    "title": "Session Timeout Reset",
+    "description": "User session expires immediately after refresh.",
+    "customer": "LogiSystem",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-09-03"
+  }
+]
