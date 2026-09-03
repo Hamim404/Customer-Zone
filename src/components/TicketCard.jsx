@@ -15,13 +15,17 @@ const PRIORITY_TEXT = {
  * Presentational only. Pass an onSelect handler from the parent
  * to hook up "add to Task Status" behavior later.
  */
-export default function TicketCard({ ticket, onSelect }) {
+export default function TicketCard({ ticket, onSelectTicket }) {
   const { id, title, description, customer, priority, status, createdAt } =
     ticket;
 
+  const handleTicket = () => {
+    onSelectTicket(ticket);
+  };
+
   return (
     <div
-      onClick={() => onSelect && onSelect(ticket)}
+      onClick={handleTicket}
       className="card bg-base-100 border border-base-200 shadow-sm hover:shadow-md transition-shadow cursor-pointer"
     >
       <div className="card-body p-5 gap-2">
@@ -29,7 +33,9 @@ export default function TicketCard({ ticket, onSelect }) {
           <h3 className="card-title text-sm font-semibold text-gray-900">
             {title}
           </h3>
-          <span className={`badge gap-1.5 shrink-0 text-white border-none ${STATUS_BADGE[status]}`}>
+          <span
+            className={`badge gap-1.5 shrink-0 text-white border-none ${STATUS_BADGE[status]}`}
+          >
             {status}
           </span>
         </div>

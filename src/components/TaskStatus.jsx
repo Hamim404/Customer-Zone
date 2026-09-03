@@ -1,3 +1,5 @@
+import { CheckCircle2 } from "lucide-react";
+
 /**
  * Right-hand sidebar, built on daisyUI's `card` component.
  * `activeTasks` and `resolvedTasks` are just arrays of ticket objects
@@ -26,9 +28,9 @@ export default function TaskStatus({
           </p>
         ) : (
           <ul className="space-y-3">
-            {activeTasks.map((task) => (
+            {activeTasks.map((task, index) => (
               <li
-                key={task.id}
+                key={index}
                 className="flex items-center justify-between gap-3 border border-base-200 rounded-lg px-3 py-2.5"
               >
                 <span className="text-sm text-gray-700 font-medium">
@@ -53,12 +55,19 @@ export default function TaskStatus({
           <p className="text-sm text-gray-400">No resolved tasks yet.</p>
         ) : (
           <ul className="space-y-2">
-            {resolvedTasks.map((task) => (
+            {resolvedTasks.map((task, index) => (
               <li
-                key={task.id}
-                className="text-sm text-gray-500 border border-base-200 rounded-lg px-3 py-2.5"
+                key={index}
+                className="flex items-center gap-2.5 bg-success/10 border border-success/20 rounded-lg px-3 py-2.5"
               >
-                {task.title}
+                <CheckCircle2
+                  size={17}
+                  className="text-success shrink-0"
+                  strokeWidth={2.5}
+                />
+                <span className="text-sm text-gray-500 decoration-gray-400">
+                  {task.title}
+                </span>
               </li>
             ))}
           </ul>
