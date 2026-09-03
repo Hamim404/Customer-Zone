@@ -1,4 +1,28 @@
 @import "tailwindcss";
-@plugin "daisyui" {
-  themes: light --default, dark;
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "csticket";
+  default: true;
+  color-scheme: light;
+  --color-base-100: #FFFFFF;
+  --color-base-200: #F3F4F6;
+  --color-base-300: #E5E7EB;
+  --color-base-content: #111827;
+  --color-primary: #7C3AED;
+  --color-primary-content: #FFFFFF;
+  --color-secondary: #10B981;
+  --color-secondary-content: #FFFFFF;
+  --color-accent: #F59E0B;
+  --color-accent-content: #1F2937;
+  --color-neutral: #0A0A0A;
+  --color-neutral-content: #D1D5DB;
+  --color-info: #3B82F6;
+  --color-info-content: #FFFFFF;
+  --color-success: #10B981;
+  --color-success-content: #FFFFFF;
+  --color-warning: #F59E0B;
+  --color-warning-content: #1F2937;
+  --color-error: #EF4444;
+  --color-error-content: #FFFFFF;
 }

@@ -1,92 +1,128 @@
 [
   {
-    "id": 101,
-    "title": "Login Page Error",
-    "description": "Users getting 500 error when submitting credentials.",
-    "customer": "Acme Corp",
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still can't access it.",
+    "customer": "John Smith",
     "priority": "High",
     "status": "Open",
-    "createdAt": "2026-09-01"
+    "createdAt": "2024-01-15"
   },
   {
-    "id": 102,
-    "title": "Payment Gateway Failure",
-    "description": "Stripe webhook failing on checkout redirect.",
-    "customer": "Global Tech",
+    "id": 1002,
+    "title": "Payment Failed - Card Declined",
+    "description": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient funds.",
+    "customer": "Sarah Johnson",
     "priority": "High",
     "status": "Open",
-    "createdAt": "2026-09-01"
+    "createdAt": "2024-01-16"
   },
   {
-    "id": 103,
-    "title": "UI Distortion on Mobile",
-    "description": "Navigation menu overlapping header on iPhone 13.",
-    "customer": "InnoSoft",
+    "id": 1003,
+    "title": "Unable to Download Invoice",
+    "description": "Customer cannot download their January invoice from the billing section. The download button is unresponsive.",
+    "customer": "Michael Brown",
     "priority": "Medium",
-    "status": "Open",
-    "createdAt": "2026-09-02"
+    "status": "In-Progress",
+    "createdAt": "2024-01-17"
   },
   {
-    "id": 104,
-    "title": "Database Query Lag",
-    "description": "Slow response time on fetching user activity logs.",
-    "customer": "DataFlow",
-    "priority": "Medium",
-    "status": "Open",
-    "createdAt": "2026-09-02"
-  },
-  {
-    "id": 105,
-    "title": "Email Notification Bug",
-    "description": "Password reset emails not delivering consistently.",
-    "customer": "CloudScale",
+    "id": 1004,
+    "title": "Incorrect Billing Address",
+    "description": "Customer's billing address shows a different city. They updated it but it still displays the old one.",
+    "customer": "Emily Davis",
     "priority": "Low",
     "status": "Open",
-    "createdAt": "2026-09-02"
+    "createdAt": "2024-01-18"
   },
   {
-    "id": 106,
-    "title": "Export to CSV Failing",
-    "description": "Reports page crashes on downloading >500 records.",
-    "customer": "FinTech Ltd",
+    "id": 1005,
+    "title": "App Crash on Launch",
+    "description": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+    "customer": "David Wilson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-19"
+  },
+  {
+    "id": 1006,
+    "title": "Refund Not Processed",
+    "description": "Customer requested a refund two weeks ago but has not received the amount yet.",
+    "customer": "Sophia Taylor",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": 1007,
+    "title": "Two-Factor Authentication Issue",
+    "description": "Customer is not receiving 2FA codes on their registered phone number.",
+    "customer": "James Anderson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-21"
+  },
+  {
+    "id": 1008,
+    "title": "Unable to Update Profile Picture",
+    "description": "Customer tries to upload a new profile picture but gets an 'Upload failed' error.",
+    "customer": "Olivia Martinez",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-01-22"
+  },
+  {
+    "id": 1009,
+    "title": "Subscription Auto-Renewal",
+    "description": "Customer wants to enable auto-renewal for their subscription but the toggle is disabled.",
+    "customer": "Liam Thomas",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "createdAt": "2024-01-17"
+  },
+  {
+    "id": 1010,
+    "title": "Missing Order Confirmation Email",
+    "description": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+    "customer": "Isabella Garcia",
     "priority": "Medium",
     "status": "Open",
-    "createdAt": "2026-09-03"
+    "createdAt": "2024-01-24"
   },
   {
-    "id": 107,
-    "title": "Profile Picture Upload",
-    "description": "PNG images larger than 2MB throw unhandled error.",
-    "customer": "SocialNet",
+    "id": 1011,
+    "title": "Two Devices Logged In Simultaneously",
+    "description": "Customer noticed their account is active on a device they don't recognize and wants it removed.",
+    "customer": "Ethan Clark",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-25"
+  },
+  {
+    "id": 1012,
+    "title": "Dark Mode Not Saving",
+    "description": "Customer's dark mode preference resets to light mode every time they close and reopen the app.",
+    "customer": "Ava Rodriguez",
     "priority": "Low",
     "status": "Open",
-    "createdAt": "2026-09-03"
+    "createdAt": "2024-01-26"
   },
   {
-    "id": 108,
-    "title": "Dark Mode Contrast",
-    "description": "Text color hard to read in settings menu.",
-    "customer": "DesignCo",
-    "priority": "Low",
-    "status": "Open",
-    "createdAt": "2026-09-03"
-  },
-  {
-    "id": 109,
-    "title": "API Rate Limit Issue",
-    "description": "429 errors triggering earlier than configured limit.",
-    "customer": "AppStudio",
+    "id": 1013,
+    "title": "Duplicate Charge on Invoice",
+    "description": "Customer was billed twice for the same monthly plan and is requesting an urgent refund.",
+    "customer": "Noah Lee",
     "priority": "High",
-    "status": "Open",
-    "createdAt": "2026-09-03"
+    "status": "In-Progress",
+    "createdAt": "2024-01-27"
   },
   {
-    "id": 110,
-    "title": "Session Timeout Reset",
-    "description": "User session expires immediately after refresh.",
-    "customer": "LogiSystem",
-    "priority": "High",
+    "id": 1014,
+    "title": "Push Notifications Not Working",
+    "description": "Customer stopped receiving push notifications for new messages after the latest app update.",
+    "customer": "Mia Patel",
+    "priority": "Medium",
     "status": "Open",
-    "createdAt": "2026-09-03"
+    "createdAt": "2024-01-28"
   }
 ]
